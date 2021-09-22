@@ -1,0 +1,15 @@
+{
+  "type": "mongodb",
+  "url": "mongodb://localhost:27017/aalokito_typeorm",
+  "useNewUrlParser": true,
+  "useUnifiedTopology": true,
+  "useCreateIndex": true,
+  "useFindAndModify": false,
+  "database": "typeorm_test",
+  "synchronize": true,
+  "logging": false,
+  "entities": ["src/entity/*.ts"],
+  "cli": {
+    "entitiesDir": "src/entity"
+  }
+}

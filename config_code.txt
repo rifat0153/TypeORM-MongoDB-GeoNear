@@ -1,0 +1,33 @@
+
+// MONGODB ATLAS conn
+{
+  "type": "mongodb",
+  "url": "mongodb+srv://admin:Lampard08@cluster0.njt0t.mongodb.net/aalokito_typeorm?retryWrites=true&w=majority",
+  "useNewUrlParser": true,
+  "useUnifiedTopology": true,
+  "useCreateIndex": true,
+  "useFindAndModify": false,
+  "database": "typeorm_test",
+  "synchronize": true,
+  "logging": false,
+  "entities": ["src/entity/*.ts"],
+  "cli": {
+    "entitiesDir": "src/entity"
+  }
+}
+// Localhost mongodb conn
+{
+  "type": "mongodb",
+  "url": "mongodb://localhost:27017/aalokito_typeorm",
+  "useNewUrlParser": true,
+  "useUnifiedTopology": true,
+  "useCreateIndex": true,
+  "useFindAndModify": false,
+  "database": "typeorm_test",
+  "synchronize": true,
+  "logging": false,
+  "entities": ["src/entity/*.ts"],
+  "cli": {
+    "entitiesDir": "src/entity"
+  }
+}
